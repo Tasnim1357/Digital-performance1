@@ -114,10 +114,12 @@ transform: scaleX(0);
 .abc:hover::before{
     transform: scaleX(1);
 }
+.abc:hover{
+  color: aliceblue !important;
+  }
 .abc:active{
- width: 99%;
- height: 7vh;
- font-size: 15px;
+padding: 5px 5px;
+transform:scaleX(0.923);
 }
 
 
